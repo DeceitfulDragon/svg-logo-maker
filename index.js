@@ -32,7 +32,7 @@ async function init() {
     const svg = buildSVG(userInput);
 
     // Write to file and log that it's done
-    fs.writeFileSync('logo.svg', svg);
+    fs.writeFileSync('examples/logo.svg', svg);
     console.log('Generated logo.svg!');
 
   } catch (error) { console.error('Error:', error); }
